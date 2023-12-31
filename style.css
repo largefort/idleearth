@@ -30,6 +30,7 @@ h1 {
 #earth {
     width: 150px;
     cursor: pointer;
+    pointer-events: none; /* Disable mouse events on this element */
 }
 
 .factory button {
