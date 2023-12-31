@@ -1,0 +1,22 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Idle Earth Clicker</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Idle Earth Clicker</h1>
+        <div class="stats">
+            <p>Money: <span id="money">0</span></p>
+        </div>
+        <div class="earth">
+            <img src="earth.png" alt="Earth" id="earth" onclick="clickEarth()">
+        </div>
+        <div class="factory">
+            <button onclick="buyFactory()">Buy Factory (Cost: $<span id="factoryCost">10</span>)</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
